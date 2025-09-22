@@ -1,5 +1,4 @@
 def letter_grade(score):
-    """Return letter grade for a numeric average."""
     if score >= 90:
         return "A"
     elif score >= 80:
@@ -28,5 +27,6 @@ def main():
     print(f"Average: {avg_str}")
     print()
     print(f"Letter Grade: {letter_grade(avg)}")
+    
 if __name__ == "__main__":
     main()
