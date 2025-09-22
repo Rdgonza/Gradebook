@@ -28,5 +28,5 @@ def main():
     print()
     print(f"Letter Grade: {letter_grade(avg)}")
     
-if __name__ == "__main__":
-    main()
+main()
+
